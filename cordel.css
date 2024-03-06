@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    background: burlywood no-repeat fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2.5em;
+    font-variant: small-caps;
+}
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1em;
+}
+
+main {
+    border: 2px solid black;
+    font-family: 'Sriracha', cursive;
+    background-color: white;
+}
+
+section {
+    line-height: 2em;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+.normal {
+    padding: 10px;
+}
+
+section.imagem > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.382);
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    text-shadow: 1px 2px 3px black;
+}
+
+#img01 {
+    background: green url(imagens/background001.jpg) center center no-repeat fixed;
+    padding: 50px 50px 50px 10px;
+}
+
+#img02 {
+    background: rgb(109, 123, 3) url(imagens/background002.jpg) center center no-repeat fixed;
+    padding: 50px 50px 50px 10px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
